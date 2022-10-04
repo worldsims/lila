@@ -3,7 +3,7 @@ import sbt._, Keys._
 
 object Dependencies {
 
-  val lilaMaven = "lila-maven" at "https://raw.githubusercontent.com/worldsims/lila-maven/master"
+  val lilaMaven = "lila-maven" at "https://raw.githubusercontent.com/worldsims/lila-maven/develop"
 
   val cats        = "org.typelevel"                %% "cats-core"                       % "2.8.0"
   val alleycats   = "org.typelevel"                %% "alleycats-core"                  % "2.8.0"
